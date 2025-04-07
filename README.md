@@ -9,7 +9,7 @@
 - **DynamoDB**: NoSQL database for storing image metadata.
 - **GitHub Actions**: CI/CD for automating build, testing, and deployment.
 - **Docker**: For local development and testing in containers.
-- - **Zap**: Structured, high-performance logging for the image service.
+- **Zap**: Structured, high-performance logging for the image service.
 
 ## Goals for the MVP
 
