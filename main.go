@@ -4,11 +4,17 @@ import (
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/sat-h/go-image-service-kit/handlers"
+	"github.com/sat-h/go-image-service-kit/logger"
 	"net/http"
 )
 
 func main() {
-	// Set up Gin router
+
+	logger.InitLogger()
+	defer logger.Logger.Sync() // Ensure all logs are flushed
+
+	logger.Info("Application started")
+
 	r := gin.Default()
 
 	// Define routes
