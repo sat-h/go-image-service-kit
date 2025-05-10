@@ -1,0 +1,5 @@
+# Ignore all dot files
+.*
+
+# But allow .gitignore itself to be tracked
+!.gitignore
